@@ -1,0 +1,81 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr, 1fr, 1fr;
+    /* grid-template-columns: 20%, 20%, 20% ,20%, 20%; */
+    background-color: hsl(225, 100%, 94%);
+    /* background-color: hsl(245, 75%, 52%); */
+}
+
+.card {
+    width: 400px;
+    height: 600px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-color: white;
+    display: grid;
+
+    grid-template-rows: 1fr, 1fr, 1fr, 1fr;
+    /* border: 1px solid red; */
+    /* margin: 20px; */
+    margin-top: 50px;
+    /* padding: 0px; */
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+.img {
+    width: 400px;
+    height: 350px;
+    grid-row-start: 0;
+    grid-row-end: 2;
+    /* border: 1px solid; */
+    /* border-radius: 10px; */
+    padding: 7px;
+    /* margin: 10px; */
+    /* border-end-start-radius: 0px;
+    border-end-end-radius: 0px; */
+
+
+}
+
+.title {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    /* width: 250px; */
+    margin: 10px;
+    padding: 20px;
+    margin-left: 10px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* margin-top: 50px; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    display: flex;
+    text-align: center;
+    margin-bottom: 0px;
+
+
+}
+
+.content {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    /* width: 250px; */
+    margin: 10px;
+    margin-top: 0px;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px ;
+    padding: 5px;
+    display: flex;
+    font-size: 20px;
+    flex-direction: row;
+    margin-left: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+
+
+
+}
